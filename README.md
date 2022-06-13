@@ -1,2 +1,2 @@
 # Portfolio
-Here is my portfolio
+Here is my Python based mini-projects
