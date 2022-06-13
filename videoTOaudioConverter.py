@@ -13,8 +13,7 @@ def main():
         path = os.getcwd() + '/'
 
     name = pytube.extract.video_id(video_url)
-    YouTube(video_url).streams.filter(
-        only_audio=True).first().download(filename=name)
+    YouTube(video_url).streams.filter(only_audio=True).first().download(filename=name)
     location = path + name + '.mp4'
     renametomp3 = path + name + '.mp3'
 
