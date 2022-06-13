@@ -25,7 +25,6 @@ def main():
     already_guessed = []
     play_game = ""
 
-
 def play_loop():
     global play_game
     play_game = input("Do You want to play again? y = yes, n = no \n")
